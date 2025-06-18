@@ -73,10 +73,16 @@ a:hover {
 .container {
     font-weight: bold;
     font-size: 20px;
-    
+
 }
 
 .container + div {
     font-weight: bold;
     font-size: 20px;
+}
+
+form {
+    width: 67vw;
+    box-shadow: 1px 1px rgb(197, 193, 193),
+                1px 1px rgb(197, 193, 193);
 }
