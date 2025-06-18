@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "amaticsc";
+    src: 
+        url("fonts/amaticsc-regular-webfont.woff2") format("woff2"),
+        url("fonts/amaticsc-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     display: flex;
     margin: 0;
@@ -14,6 +23,37 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    position: relative;
+}
+
+.logo {
+    background-image: url(odin-lined.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 100px;
+    top: 35px;
+    width: 100px;
+    height: 180px;
+}
+
+.brname {
+    width: inherit;
+    height: 200px;
+    background-color: rgba(14, 6, 6, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: azure;
+    top: 100px;
+    font-size: 130px;
+    font-family: "amaticsc", serif;
+}
+
+.name {
+    position: absolute;
+    right: 95px;
 }
 
 footer {
