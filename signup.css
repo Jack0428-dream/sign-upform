@@ -42,6 +42,7 @@ body {
     height: 200px;
     background-color: rgba(14, 6, 6, 0.3);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -67,4 +68,15 @@ footer > a {
 a:hover {
     background-color: beige;
     color: #979;
+}
+
+.container {
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.container + div {
+    font-weight: bold;
+    font-size: 20px;
 }
