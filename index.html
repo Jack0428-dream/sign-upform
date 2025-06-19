@@ -12,39 +12,35 @@
         <footer>Photo by <a href="https://unsplash.com/photos/brown-and-white-concrete-building-under-white-clouds-during-daytime-L03My8WJcN0">Louis Paulin</a> 
             on <a href="https://unsplash.com/@louispaulin">Unsplash</a></footer>
     </div>
-    <div class="formcontainer">
+    <div class="signup">
         <div class="container">
             This is not a real online service! You know you need something<br>
             like this in your life to help you realize your deepest dreams.<br>
-            Sign up now to get started.
+            Sign up <i>now</i> to get started.
+            <p> You <i>know</i> you want to</p>
         </div>
-        <div> You Know you want to</div>
         <form>
-            <h2>Let's do this!</h2>
-            <p>
-                <label for="fname">FIRST NAME</label>
-                <input id="fname" name="fname" type="text">
-            </p>
-            <p>
-                <label for="lname">LAST NAME</label>
-                <input id="lname" name="lname" type="text">
-            </p>
-            <p>
-                <label for="email">EMAIL</label>
-                <input id="email" name="email" type="email">
-            </p>
-            <p>
-                <label for="pnumbers">PHONE NUMBERS</label>
-                <input id="pnumbers" name="pnumbers" type="tel">
-            </p>
-            <p>
-                <label for="password">PASSWORD</label>
-                <input id="password" name="password" type="password">
-            </p>
-            <p>
-                <label for="cfpassword">CONFIRM PASSWORD</label>
-                <input id="cfpassword" id="cfpassword" type="password">
-            </p>
+            <div class="formcontainer">
+                <h2>Let's do this!</h2>
+                <div class="signform">
+                    <p class="form1">
+                        <label for="fname">FIRST NAME</label>
+                        <input id="fname" name="fname" type="text">
+                        <label for="email">EMAIL</label>
+                        <input id="email" name="email" type="email">
+                        <label for="password">PASSWORD</label>
+                        <input id="password" name="password" type="password" required>
+                    </p>
+                    <p class="form2">
+                        <label for="lname">LAST NAME</label>
+                        <input id="lname" name="lname" type="text">
+                        <label for="pnumbers">PHONE NUMBERS</label>
+                        <input id="pnumbers" name="pnumbers" type="tel">
+                        <label for="cfpassword">CONFIRM PASSWORD</label>
+                        <input id="cfpassword" id="cfpassword" type="password" required>                   
+                    </p>
+                </div>    
+            </div>    
             <button type="submit">Create Account</button>
         </form>
         <div class="footer">Already have an account? <a href="">Log in</a></div>
